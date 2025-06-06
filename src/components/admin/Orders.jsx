@@ -2,7 +2,7 @@ import React from 'react'
 import Sidebar from './Sidebar'
 
 const Orders = ({url}) => {
-  const url = url;
+  
   return (
     <div className="flex h-screen">
       {/* Sidebar on the left */}
