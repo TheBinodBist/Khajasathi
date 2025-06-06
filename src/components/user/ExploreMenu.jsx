@@ -1,6 +1,6 @@
 import React from 'react'
-import { menu_list } from '../assets/frontend_assets/assets'
-import { StoreContext } from '../context/StoreContext'
+import { menu_list } from '../../assets/frontend_assets/assets'
+import { StoreContext } from '../../context/StoreContext'
 const ExploreMenu = ({ category, setCategory }) => {
 
   return (

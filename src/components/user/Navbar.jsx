@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react'
-import {assets} from '../assets/frontend_assets/assets.js'
+import {assets} from '../../assets/frontend_assets/assets.js'
 import { Link } from 'react-router-dom'
-import { StoreContext } from '../context/StoreContext.jsx'
+import { StoreContext } from '../../context/StoreContext.jsx'
 const Navbar = ({setShowLogin}) => {
  const [menu,setMenu]=useState("home")
  const {getTotalCartAmount} = useContext(StoreContext)

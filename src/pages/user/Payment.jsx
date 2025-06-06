@@ -2,13 +2,7 @@ import React, { useContext } from 'react'
 import { StoreContext } from '../../context/StoreContext';
 
 const Payment = () => {
-      const {
-        cartItems,
-        setCartItems,
-        addToCart,
-        removeFromCart,
-        getTotalCartAmount,
-      } = useContext(StoreContext);
+      const {getTotalCartAmount} = useContext(StoreContext);
   return (
     <div>
         <div>
@@ -19,7 +13,7 @@ const Payment = () => {
         <button className='text-white bg-blue-900 text-2xl hover:bg-gray-500'>Pay via esewa</button>
       </div>
       <div>
-        <button className=' bg-amber-200 bg-blue-700 text-2xl mt-7'>Pay via Khalti</button>
+        <button className=' bg-blue-700 text-2xl mt-7'>Pay via Khalti</button>
       </div>
     </div>
   )

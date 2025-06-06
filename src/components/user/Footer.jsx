@@ -1,5 +1,5 @@
 import React from "react";
-import { assets } from "../assets/frontend_assets/assets";
+import { assets } from "../../assets/frontend_assets/assets";
 const Footer = () => {
   return (
     <div className="text-white bg-black flex flex-col items-center gap-5 px-[8vw] pt-20 mt-24" id="footer">

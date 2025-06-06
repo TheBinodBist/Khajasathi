@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import { assets } from '../assets/frontend_assets/assets'
-import { StoreContext } from '../context/StoreContext'
+import { assets } from '../../assets/frontend_assets/assets'
+import { StoreContext } from '../../context/StoreContext'
 const LoginPopup = ({ setShowLoginRider }) => {
   const [currState, setCurrState] = useState("Sign Up")
 
